@@ -11,7 +11,7 @@ import com.cognizant.pojo.Property;
 
 
 
-@FeignClient(name = "consumer-service", url = "http://localhost:8083/consumer")
+@FeignClient(name = "consumer-service", url = "http://pod4consumermicroservice-env.eba-3ywqei4d.us-west-2.elasticbeanstalk.com/consumer")
 public interface ConsumerFeignClient {
 	
 	@GetMapping("/viewbusinessProperty/{businessId}")
