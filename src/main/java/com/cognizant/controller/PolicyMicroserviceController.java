@@ -30,7 +30,7 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 @RequestMapping(value = "/policy-master")
 @Slf4j
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="*")
 public class PolicyMicroserviceController {
 	
 	
