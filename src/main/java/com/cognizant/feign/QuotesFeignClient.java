@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 
 import com.cognizant.pojo.QuotesMaster;
 
-@FeignClient(name = "quotes-service", url = "http://localhost:8082/quotes-master")
+@FeignClient(name = "quotes-service", url = "http://pod4quotesmicroservice-env.eba-pihq2uni.us-west-2.elasticbeanstalk.com/quotes-master")
 public interface QuotesFeignClient {
 	
 	
