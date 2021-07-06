@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 /**
  * Proxy interface for authorization service
  */
-@FeignClient(name = "authorization-service", url = "${AUTH_SERVICE:http://localhost:8084}")
+@FeignClient(name = "authorization-service", url = "${AUTH_SERVICE:http://pod4authorization-env.eba-wpqvpigb.us-west-2.elasticbeanstalk.com/}")
 public interface AuthorisationClient {
 
 	/**
